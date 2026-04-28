@@ -8,7 +8,7 @@ name: Comandos de shell
 
 on:
   repository_dispatch:
-    types: [ invocacion_desde_curl]
+    types: [ invocacion_desde_curl ]
 
 jobs:
   build_and_release:
